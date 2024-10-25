@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>See Hisab</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Hisab of <%= fileName.replace('.txt', '') %></h1>
+    <button style="margin-bottom: 10px;"><a href="/">Home</a></button>
+    <br>
+    <textarea name="" id="" rows = "30" cols="70"><%= data %></textarea>
+    <br>
+    <button style="margin-bottom: 2px;"><a href="/editHisab/<%= fileName %>">Edit Hisab</a></button>
+
+    <form action="/delete/<%= fileName %>" method="post">
+        <input type="submit" value="Delete Hisab">
+    </form>
+</body>
+</html>

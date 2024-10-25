@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KHATA-BOOK</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Welcome To KHATA-BOOK</h1>
+    <div>
+        <a href="/createHisab">Create Hisab</a>
+    </div>
+    <br>
+    <h3>All Hisab Kitab</h3>
+        <br>
+        <% files.forEach(function(fileName){ %>
+            <div>
+                <a href="/seeHisab/<%= fileName %>"> <%= fileName.replace('.txt', '') %> </a>
+            </div>
+            <br>
+       <% }) %>
+        </div>
+    </div>
+</body>
+</html>

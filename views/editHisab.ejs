@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Hisab</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Edit Hisab of <%= fileName.replace('.txt','') %></h1>
+    <form action="/editHisab/<%= fileName %>" method="post">
+        <textarea name="editedHisab" id="" rows="30" cols="70"><%= data %></textarea>
+        <br>
+        <input type="submit" value="Save Hisab">
+    </form>
+  
+</body>
+</html>

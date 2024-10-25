@@ -1,0 +1,6 @@
+KhataBook :
+ 1. Hr roz ki ek file create kr skte hai, us file ka naam us din ki date se hoga. like -> 25-10-2024.txt
+  main screen pr yani /route pr hum sari hisab files dekh payenge 
+  file pr click krne pr us din ka hisab khul jayega 
+  chahe to edit krke firse save kre
+  chahe to hisab delete bhi kr skte hai
